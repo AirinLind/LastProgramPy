@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.secret_key = 'YouWillNeverGuess'
 app.config['dbconfig'] = {'host': '127.0.0.1',
                           'user': 'root',
-                          'password': '1',
+                          'password': 'Pa$$w0rd',
                           'database': 'vsearchlogDB'
                           }
 
